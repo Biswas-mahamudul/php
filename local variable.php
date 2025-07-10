@@ -34,12 +34,29 @@
     }
     sum();
      echo $c;
-       
+    echo "<br>";
+      echo"<h4>  global form</h4>";
+
+    echo "<br>";
+       echo $_GET['fname'];
+    echo "<br>";
+    echo $_GET['fcolor']; 
+      
+    echo "<br>";
+    echo $_GET['fmodel']; 
 
 
 
 
 
     ?>
+    <form action="#" method=get>
+
+    NAME:<br><input type="text" name="fname"><br>
+    COLOR:<br><input type="text" name="fcolor"><br>
+    MODEL:<br><input type="text" name="fmodel"><br><br>
+    <input type="submit" value="Submit">
+    </form>
+
 </body>
 </html>
