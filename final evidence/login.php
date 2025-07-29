@@ -24,8 +24,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     <h2>Student Login</h2>
     <?php if ($message) echo "<p>$message</p>"; ?>
     <form method="POST">
-        <input type="email" name="email" placeholder="Email" required><br>
-        <input type="password" name="password" placeholder="Password" required><br>
+        <input type="email" name="email" placeholder="Email" required><br> <br>
+        <input type="password" name="password" placeholder="Password" required><br> <br>
         <button type="submit">Login</button>
     </form>
 </body>
